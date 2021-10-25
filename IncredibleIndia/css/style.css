@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+   margin: auto !important;
+}
+a:hover{
+    background-color:lightgrey;
+}
+body{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    display: block;
+    color: #5a5a5a;
+    font-size: 16px;
+}
+div h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #2c4058;
+}
+
+
+/*popular in india*/
+.popularinindia{
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #5a5a5a;
+}
+
+.popularinindia .slider{
+    background-image: url('../image/beaches.jpeg');
+}
+
+.popularinindia .card{
+    width: 70%;
+}
+.popularinindia .image{
+    width: 80%;
+    height: 100%;
+    padding-left: 35px;
+}
+
+.popularinindia .card p{
+    font-size: 14px;
+}
+
+.popularinindia .card hr{
+    margin-top: 0;
+    margin-bottom:0
+}
+
+.popularinindia .slider .leftblock{
+    width: 60%;
+}
+
+.popularinindia .slider .leftblock p{
+    background: #00000087;
+    color: #fff;
+    text-align:justify;
+}
+
+/* Must Visit Destinations*/
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/*immersive_experiences*/
+.immersive_experiences .card {
+    position: relative;
+}
+
+.immersive_experiences .card .cardbody{
+    position: absolute;
+    bottom: 0;
+    background-color: #00000087;
+}
+
+/*footer*/
+.footer{
+    background-color: #17406c;
+    color:#fff;
+}
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer hr{
+    height: 1px;
+    color: #fff;
+}
+
+.footer p{
+    color: #fff;
+    font-size: 14px;
+}
+
+
